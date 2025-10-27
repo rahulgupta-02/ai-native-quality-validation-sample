@@ -92,7 +92,7 @@ export const getUserBookings = async (
       };
     });
 
-    res.json({ bookings: bookingsWithDetails });
+    res.status(500).json({ bookings: bookingsWithDetails });
   } catch (error) {
     console.error('Get user bookings error:', error);
     res.status(500).json({ error: 'Failed to fetch bookings' });
