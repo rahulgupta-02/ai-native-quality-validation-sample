@@ -46,6 +46,7 @@ const AVAILABLE_AMENITIES = [
   'Elevator',
   'Fireplace',
   'Workspace',
+  'Butler'
 ];
 
 const BecomeHost = () => {
