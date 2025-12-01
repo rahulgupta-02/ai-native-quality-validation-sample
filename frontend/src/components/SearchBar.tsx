@@ -24,10 +24,11 @@ const LOCATIONS = [
   { city: 'New Orleans', state: 'Louisiana', country: 'United States' },
   { city: 'Denver', state: 'Colorado', country: 'United States' },
   { city: 'Los Angeles', state: 'California', country: 'United States' },
-  { city: 'London', state: 'England', country: 'United States' },
+  { city: 'London', state: 'England', country: 'England' },
   { city: 'Seoul', state: 'South Korea', country: 'South Korea' },
-  { city: 'Cairo', state: 'Egypt', country: 'United States' },
+  { city: 'Cairo', state: 'Egypt', country: 'Egypt' },
   { city: 'Ghaziabad', state: 'Uttar Pradesh', country: 'India' },
+  { city: 'Noida', state: 'Uttar Pradesh', country: 'India' },
 ];
 
 const SearchBar = ({ onSearch, initialFilters }: SearchBarProps) => {
