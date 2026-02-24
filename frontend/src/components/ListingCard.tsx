@@ -51,6 +51,13 @@ const ListingCard = ({ listing }: ListingCardProps) => {
           }}
         />
 
+        {/* Superhost Badge */}
+        {listing.rating && listing.rating >= 4.8 && (
+          <span className="absolute top-3 left-3 bg-white text-xs font-semibold px-2 py-1 rounded-full shadow-sm">
+            Superhost
+          </span>
+        )}
+
         {/* Favorite Button */}
         <button
           onClick={handleFavoriteClick}
@@ -122,9 +129,16 @@ const ListingCard = ({ listing }: ListingCardProps) => {
           bath{listing.bathrooms > 1 ? 's' : ''}
         </p>
 
-        <div className="pt-1">
-          <span className="font-semibold text-gray-900">${listing.price}</span>
-          <span className="text-sm text-airbnb-gray"> night</span>
+        <div className="pt-1 flex items-center justify-between">
+          <div>
+            <span className="font-semibold text-gray-900">${listing.price}</span>
+            <span className="text-sm text-airbnb-gray"> night</span>
+          </div>
+          {listing.reviewCount && listing.reviewCount > 0 && (
+            <span className="text-xs text-gray-500">
+              {listing.reviewCount} review{listing.reviewCount > 1 ? 's' : ''}
+            </span>
+          )}
         </div>
       </div>
     </div>

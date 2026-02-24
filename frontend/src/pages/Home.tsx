@@ -230,6 +230,41 @@ const Home = () => {
           </div>
         )}
       </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-100 border-t border-gray-200 mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+              <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wide mb-4">Support</h4>
+              <ul className="space-y-3 text-sm text-gray-600">
+                <li><a href="#" className="hover:underline">Help Center</a></li>
+                <li><a href="#" className="hover:underline">Safety Information</a></li>
+                <li><a href="#" className="hover:underline">Cancellation Options</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wide mb-4">Community</h4>
+              <ul className="space-y-3 text-sm text-gray-600">
+                <li><a href="#" className="hover:underline">Forum</a></li>
+                <li><a href="#" className="hover:underline">Blog</a></li>
+                <li><a href="#" className="hover:underline">Invite Friends</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wide mb-4">About</h4>
+              <ul className="space-y-3 text-sm text-gray-600">
+                <li><a href="#" className="hover:underline">How it Works</a></li>
+                <li><a href="#" className="hover:underline">Careers</a></li>
+                <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-8 pt-6 border-t border-gray-300 text-center text-sm text-gray-500">
+            &copy; 2026 Demo Github App. All rights reserved.
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
