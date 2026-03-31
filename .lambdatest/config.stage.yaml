@@ -1,8 +1,7 @@
 # LambdaTest Configuration
 
-# Project and folder configuration
+# Project and folder configuration - folder_id intentionally removed
 project_id: "01KH6PT2ZSE6V5R9T9V8BS2MDF"
-folder_id: "01KH6PT3RKBN30GRQN545D808F"
 
 # Test Run configuration
 assignee: 87225
