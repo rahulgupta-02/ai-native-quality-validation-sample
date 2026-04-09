@@ -8,5 +8,5 @@ folder_id: "01KNKDXR8VYZT98WG1TEX99AZC"
 assignee: 1000383103
 environment_id: 1
 
-# Test URL for automation
-test_url: "https://demo.lambdatestinternal.com"
+# Test URL for automation - modified on head branch to verify config is read from PR source branch
+test_url: "https://stage-demo.lambdatestinternal.com"
